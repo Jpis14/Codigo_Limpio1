@@ -1,13 +1,12 @@
-from UI.Menu import Menu
+from UI.Menu_Consola import Menu_Consola
 from Model.Validar import Validar
 from Model.GestorUsuarios import GestorUsuarios
 from Model.Nota import Nota
 
-
-class Start:
+class Start_Consola:
   @staticmethod
   def start():
-    menu = Menu()
+    menu = Menu_Consola()
     gestor = GestorUsuarios()
     usuario_actual = None
 
