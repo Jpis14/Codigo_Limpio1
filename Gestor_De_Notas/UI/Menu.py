@@ -16,6 +16,7 @@ class Menu:
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.textinput import TextInput
 from kivy.uix.button import Button
+from Model.Nota import Nota
 
 def crear_nota(self):
     layout = BoxLayout(orientation='vertical', spacing=10, padding=10)
@@ -51,6 +52,6 @@ def crear_nota(self):
 
     layout.add_widget(btn_guardar)
 
-    popup = Popup(title="Crear Nota", content=layout,
+    popup = popup(title="Crear Nota", content=layout,
                   size_hint=(None, None), size=(400, 300))
     popup.open()
