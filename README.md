@@ -2,7 +2,6 @@
 ## ¿Quién hizo esto?
 *Autores*:
 - Juan Pablo Hernandez
-- Maria jose Pabon
   
 ## ¿Qué es y para qué es?
 Este proyecto permite a los usuarios (registrarse, iniciar sesión y gestionar notas)de manera eficiente.  
@@ -26,6 +25,7 @@ De resto no hay otro prerrequisito.
 #Aplicación
 
 Para ejecutar la aplicacion debe ejecutar el archivo main.py ubicado en la ruta Gestor_De_Notas/main.py
+Aqui desplegara un menu de opciones, para solicitar por cualmedio desea realizar el arranque de la app, por interfaz gráfica (i) o por menu de consola (c).
     
 ### Dependencias
 - pytest: Librería estándar de Python para pruebas unitarias.
