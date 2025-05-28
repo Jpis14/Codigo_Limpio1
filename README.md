@@ -22,7 +22,7 @@ Asegurese de tener `Python` instalado en su sistema. Ademas de también añadir 
 #Pruebas
 
 1. Para correr las pruebas debes tener pytest una libreria de python
-2. Debes el ejecutar el archivo GestorPruebas.py ubicado en la ruta Gestor_De_Notas/Pruebas/GestorPruebas.py
+2. Debes el ejecutar el archivo GestorPruebas.py ubicado en la ruta ```bash Gestor_De_Notas/Pruebas/GestorPruebas.py```
 
 #Aplicación
 
