@@ -16,7 +16,14 @@ Este proyecto permite a los usuarios (registrarse, iniciar sesión y gestionar n
 - Interfaz web, con estilo sencillo, pero optimizado. 
 
 ### Prerrequisitos
-Asegurese de tener `Python` instalado en su sistema. Ademas de también añadir `pytest` que es el encargado de correr las pruebas unitarias, así como también debe añadir `tkinter` que es el encargado de procesar la interfaz de usuario.<br>Por otro lado, tambien es necesario tener e el sistema las librerias `psycopg2` y `flask`, las cuales son necesarias para conectarse y trabajar con bases de datos PostgreSQL y para crear aplicaciones web de forma sencilla y rápida.
+Asegurese de tener `Python` instalado en su sistema. Ademas de también añadir `pytest` que es el encargado de correr las pruebas unitarias, así como también debe añadir `tkinter` que es el encargado de procesar la interfaz de usuario.<br>Por otro lado, tambien es necesario tener e el sistema las librerias `psycopg2` y `flask`, las cuales son necesarias para conectarse y trabajar con bases de datos PostgreSQL y para crear aplicaciones web de forma sencilla y rápida.<br>Para acceder a la base de datos es necesesario estar logueado en:
+```bash
+https://console.neon.tech/
+```
+y crear un nuevo proyecto y conectarlo con la base de datos, dandole click en el boton `Connect to your database` y copiando las credenciales como: `Parameters only`. Para luego ser ubicadas en el archivo `Secret_Config.py`, que es el modulo donde se encuentran las credenciales de Neon_DB, para el enlace con la base de datos. Este archivo esta ubicado en:
+```bash
+Gestor_De_Notas/Secret_Config.py
+```
 
 ## Ejecución
 ### Pruebas
