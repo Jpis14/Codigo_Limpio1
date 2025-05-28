@@ -16,11 +16,11 @@ Este proyecto permite a los usuarios (registrarse, iniciar sesión y gestionar n
 - Interfaz web, con estilo sencillo, pero optimizado. 
 
 ### Prerrequisitos
-Asegurese de tener `Python` instalado en su sistema. Ademas de también añadir `pytest` que es el encargado de correr las pruebas unitarias, así como también debe añadir `tkinter` que es el encargado de procesar la interfaz de usuario.<br>Por otro lado, tambien es necesario tener e el sistema las librerias `psycopg2` y `flask`, las cuales son necesarias para conectarse y trabajar con bases de datos PostgreSQL y para crear aplicaciones web de forma sencilla y rápida.<br>Para acceder a la base de datos es necesesario estar logueado en:
+Asegurese de tener `Python` instalado en su sistema. Ademas de también añadir `pytest` que es el encargado de correr las pruebas unitarias, así como también debe añadir `tkinter` que es el encargado de procesar la interfaz de usuario.<br>Por otro lado, tambien es necesario tener e el sistema las librerias `psycopg2` y `flask`, las cuales son necesarias para conectarse y trabajar con bases de datos PostgreSQL y para crear aplicaciones web de forma sencilla y rápida.<br> <br> Para acceder a la base de datos es necesesario estar logueado en:
 ```bash
 https://console.neon.tech/
 ```
-y crear un nuevo proyecto y conectarlo con la base de datos, dandole click en el boton `Connect to your database` y copiando las credenciales como: `Parameters only`. Para luego ser ubicadas en el archivo `Secret_Config.py`, que es el modulo donde se encuentran las credenciales de Neon_DB, para el enlace con la base de datos. Este archivo esta ubicado en:
+Para luego crear un nuevo proyecto y conectarlo con la base de datos dandole click en el boton `Connect to your database` y copiando las credenciales como: `Parameters only`. Para luego ser ubicadas en el archivo `Secret_Config.py`, que es el modulo necesario para el enlace con la base de datos, donde se encuentran las credenciales de `Neon_DB`, teniendo en cuenta que NO se debe eliminar la variable `PGPORT=5432` que se utiliza para indicar el puerto en el que el servidor de PostgreSQL está escuchando las conexiones.<br> Este archivo esta ubicado en:
 ```bash
 Gestor_De_Notas/Secret_Config.py
 ```
