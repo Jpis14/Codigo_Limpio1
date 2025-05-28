@@ -29,9 +29,18 @@ Gestor_De_Notas/Pruebas/GestorPruebas.py
 
 #Aplicación
 
-* Para ejecutar la consola debe ejecutar el archivo Consola_Def.py ubicado en la ruta Gestor_De_Notas/Consola/Consola_Def.py
-* Para ejecutar la interfaz grafica debe ejecutar el archivo interfaz.py ubicado en la ruta Gestor_De_Notas/UI/interfaz.py
-* Para ejecutar la interfaz web debe ejecutar el archivo app.py ubicado en la ruta Gestor_De_Notas/app.py
+* Para ejecutar la consola debe ejecutar el archivo Consola_Def.py ubicado en la ruta:
+```bash
+Gestor_De_Notas/Consola/Consola_Def.py
+```
+* Para ejecutar la interfaz grafica debe ejecutar el archivo interfaz.py ubicado en la ruta:
+```bash
+Gestor_De_Notas/UI/interfaz.py
+```
+* Para ejecutar la interfaz web debe ejecutar el archivo app.py ubicado en la ruta:
+```bash
+Gestor_De_Notas/app.py
+```
     
 ### Dependencias
 - pytest: Librería estándar de Python para pruebas unitarias.
