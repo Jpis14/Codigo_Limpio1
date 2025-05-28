@@ -1,12 +1,12 @@
 # Gestor de Notas
 ## ¿Quién hizo esto?
-*Autor*:
+**Autor**:
 - Juan Pablo Hernandez Huertas
   
 ## ¿Qué es y para qué es?
 Este proyecto permite a los usuarios (registrarse, iniciar sesión y gestionar notas) de manera eficiente.  
 
-#Características  
+### Características  
 - Registro e inicio de sesión de usuarios.  
 - Creación, edición y eliminación de notas.  
 - Validación de datos para mayor seguridad.  
