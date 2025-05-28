@@ -15,7 +15,7 @@ Este proyecto permite a los usuarios (registrarse, iniciar sesión y gestionar n
 - Interfaz grafica, amigable con el usuario.
 - Interfaz web, con estilo sencillo, pero optimizado. 
 
-### Prerrequisito
+### Prerrequisitos
 Asegurese de tener `Python` instalado en su sistema. Ademas de también añadir `pytest` que es el encargado de correr las pruebas unitarias, así como también debe añadir `tkinter` que es el encargado de procesar la interfaz de usuario.<br>. Por otro lado, tambien es necesario tener e el sistema las librerias `psycopg2` y `flask`, las cuales son necesarias para conectarse y trabajar con bases de datos PostgreSQL y para crear aplicaciones web de forma sencilla y rápida.
 
 ## Ejecución
