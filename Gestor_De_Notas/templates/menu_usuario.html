@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Bienvenido, {{ usuario }}</h2>
+
+<form action="{{ url_for('insertar_nota') }}" method="get">
+    <button type="submit">Insertar Nota</button>
+</form>
+<form action="{{ url_for('editar_nota') }}" method="get">
+    <button type="submit">Editar Nota</button>
+</form>
+<form action="{{ url_for('eliminar_nota') }}" method="get">
+    <button type="submit">Eliminar Nota</button>
+</form>
+<form action="{{ url_for('ver_notas') }}" method="get">
+    <button type="submit">Ver Notas</button>
+</form>
+<form action="{{ url_for('logout') }}" method="get">
+    <button type="submit">Cerrar Sesión</button>
+</form>
+{% endblock %}
+

@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2 style="text-align:center; margin-bottom: 20px;">Notas de {{ session['usuario'] }}</h2>
+
+{% if notas %}
+<table style="margin: 0 auto; border-collapse: collapse; width: 80%; font-family: Arial, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+    <thead>
+        <tr style="background-color: #007BFF; color: white; text-align: center;">
+            <th style="padding: 12px 15px; border: 1px solid #ddd;">ID Nota</th>
+            <th style="padding: 12px 15px; border: 1px solid #ddd;">Título</th>
+            <th style="padding: 12px 15px; border: 1px solid #ddd;">Nota</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for nota in notas %}
+        <tr style="text-align: center; border-bottom: 1px solid #ddd; transition: background-color 0.3s;">
+            <td style="padding: 10px 15px;">{{ nota[0] }}</td>
+            <td style="padding: 10px 15px;">{{ nota[1] }}</td>
+            <td style="padding: 10px 15px;">{{ nota[2] }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<p style="text-align:center; font-style: italic; color: #555;">Aún no tienes notas registradas.</p>
+{% endif %}
+
+<a href="{{ url_for('menu_usuario') }}"><button>Volver al Menú</button></a>
+<a href="{{ url_for('logout') }}"><button>Cerrar Sesión</button></a>
+{% endblock %}
